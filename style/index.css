@@ -61,12 +61,7 @@ a:hover{
 	margin-top: 10px;
 
 }
-form{
-	width: 150px;
-	margin-top: 20px;
-	background-color: black;
-	
-}
+
 
 
 #login{
@@ -104,6 +99,11 @@ button{
 	color: black;
 }
 
+
+
+
+<!--Dasboard-->
+
 .linea{
 border: 1px solid #2E2E2E; 
 border-radius: 300px/10px; 
@@ -111,9 +111,6 @@ height: 0px;
 width: 90%;
 text-align: center;
 }
-
-
-<!--Dasboard-->
 
 #imgPerfil{
     background-color: black;
@@ -125,6 +122,25 @@ text-align: center;
 	
 }
 
+#Logodasboard{
+	width: 20em;
+	height: 7em;
+	background-color: black;
+	margin-left:60em;
+	margin-top: 3em;
+}
+
+#imglogo{
+	background-color: black;
+	border-radius: 190px;
+	width: 150px;
+	height: 145px;
+	float: left;
+	margin-left: 14em;
+	margin-top: -2em;
+	
+
+}
 #tab1 h2{
 	background-color:#ffc40d;
 	color:#fff;
@@ -154,9 +170,9 @@ article.tabs
 article.tabs section
 {
 	position: absolute;
-	top: 15em;
+	top: 10em;
 	width: 70em;
-	height: 20em;
+	height: 130em;
 	background-color:#fff;
 	box-shadow: 0 3px 3px rgba(0,0,0,0.1);
 	z-index: 0;
@@ -173,7 +189,7 @@ article.tabs section h2
 	font-size: 0.7em;
 	font-weight: normal;
 	width: 6em;
-	height: 2em;
+	height: 2.5em;
 	border-radius: 0px 10px 10px 10px;
 	top: -3em;
 	margin: 0;
@@ -232,12 +248,7 @@ article.tabs section h2
 
 
 
-#Logodasboard{
-	width: 25em;
-	height: 10em;
-	background-color: black;
-	margin-left:50em;
-}
+
 
 
 /*----------------------------
@@ -248,8 +259,8 @@ article.tabs section h2
 #colorNav > ul{
 	width: 600px; /* Increase when adding more menu items */
 	margin:0 auto;
-	margin-top: 5em;
-	margin-left: 10em;
+	margin-top: 3em;
+	margin-left: 25em;
 }
 
 #colorNav > ul > li{ /* will style only the top level li */
@@ -274,7 +285,7 @@ article.tabs section h2
 	color:White;
 	font-size:15px;
 	text-align: center;
-	margin-top: -5px;
+	margin-top: -8px;
 	
 }
 
